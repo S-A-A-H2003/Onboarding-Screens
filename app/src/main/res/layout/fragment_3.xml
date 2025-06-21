@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, User"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I confirm I have read and agree to use the app."
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:enabled="false"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="20dp"
+        android:padding="16dp"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"/>
+
+    <Spinner
+        android:id="@+id/spinnerGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/etAgeOrUniversity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your age or university"
+        android:inputType="text"
+        android:layout_marginBottom="24dp"
+        android:padding="16dp"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:padding="16dp"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
+
